@@ -105,11 +105,7 @@ For example, ['Alphabet', 'alphabet', 'carrot', 'Zebra'] is correctly sorted, an
 
 const alphabetizeBetter = (arr) => {
   // Solution code here...
-  return arr.sort((a, b) => {
-    if (a.toLowerCase() < b.toLowerCase()) return -1;
-    if (a.toLowerCase() > b.toLowerCase()) return 1;
-    return 0;
-  });
+ 
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -119,9 +115,7 @@ Write a function named sortByLength that takes in an array of strings and return
 
 const sortByLength = (arr) => {
   // Solution code here...
-  return arr.sort((a, b) => {
-    return a.length - b.length;
-  });
+ 
 };
 
 
