@@ -100,10 +100,10 @@ For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 
 const notInFirstArray = (forbiddenValues, arr) => {
   // Solution code here...
-  const localArr = arr.filter(element=>{
-    return !(forbiddenValues.includes(element));
+  let x = arr.filter(itam=>{
+    return !(forbiddenValues.includes(itam));
   });
-  return localArr;
+  return x;
 };
 
 /* ------------------------------------------------------------------------------------------------
