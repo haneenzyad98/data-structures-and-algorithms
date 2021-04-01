@@ -25,7 +25,7 @@ function transformToLis(obj){
   let z=Object.keys(z);
   let y=[]
   for(let i=0;i<x.length;i++){
-    y.push(`<li>${ob1[i]}: ${ob2[i]}</li>`);
+    y.push(`<li>${x[i]}: ${z[i]}</li>`);
   }
 return y;
 }
