@@ -1,14 +1,8 @@
 'use strict';
 
-const { name } = require("mustache");
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
-
-Write a function named getNames that, given an array 
-of people objects,
- uses map to return an array of names reversed.
-
+Write a function named getNames that, given an array of people objects, uses map to return an array of names reversed.
 For example: 
 [
 {
@@ -22,79 +16,79 @@ For example:
   shoeSize: 8
 }
 ]
-
 Returns: ['dyoll', 'eimaj'];
 ------------------------------------------------------------------------------------------------ */
 
 const getNames = (arr) => {
   // Solution code here...
-  let array=[];
-  array=arr.map(itam=>itam.name.split('').reverse().join(''))
-  return array;
-
- 
+  let localArr = arr.map(value => {
+    let str = value.name.split('');
+    let rev = str.reverse();
+    let join = rev.join('')
+    return join
+  })
+  return localArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
-
-Write a function named count that, given an integer and 
-an array of arrays, uses either filter, map, or reduce to 
-count the amount of times the integer is present in the array
- of arrays.
-
+Write a function named count that, given an integer and an array of arrays, uses either filter, map, or reduce to count the amount of times the integer is present in the array of arrays.
 Note: You might need to use the same method more than once.
-
 For example, count(5, [[1, 3, 5, 7, 9], [5, 5, 5], [1, 2, 3]]) returns 4.
 ------------------------------------------------------------------------------------------------ */
 
 const count = (target, input) => {
   // Solution code here...
-  let array=input.reduce(function(accumlator,val){
-    return accumlator+=val.reduce(function(accumlator2,value){if(target===value){return accumlator2=accumlator2+1;}else{return accumlator2;}
-    },0);
-  },0);
-  return array;
+  return input.reduce((acc, value) => {
+    acc = acc + value.reduce((acc, val) => {
+      if (val === target) {
+        acc = acc + 1;
+      }
+      return acc;
+    }, 0);
+    return acc;
+  }, 0);
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
-
 Write a function that, given an array of integer arrays as input, calculates the total sum of all the elements in the array.
-
 You may want to use filter, map, or reduce for this problem, but are not required to. You may need to use the same method more than once.
-
 For example, [[1, 2, 3, 4, 5], [6, 7, 2, 4, 5, 7], [9, 2, 3, 6,]] returns 66.
 ------------------------------------------------------------------------------------------------ */
 
 const totalSum = (input) => {
   // Solution code here...
+  let n = 0;
+  input.map(x => {
+    x.map(y=> n += y);
+
+  })
+  return n;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
-
 Write a function named divisibleByFiveTwoToThePower that accepts an array of arrays as input.
-
 This function should first remove any elements that are not numbers or are not divisible by five.
-
 This function should then raise 2 to the power of the resulting numbers, returning an array of arrays.
-
 For example, [ [0,2,5,4], [2,4,10], [] ] should return [ [1, 32], [1024], [] ].
 ------------------------------------------------------------------------------------------------ */
 
 const divisibleByFiveTwoToThePower = (input) => {
   // Solution code here...
+  let localArray = input.map(element => 
+    element.filter (value => typeof(value) === 'number' && !(value % 5)));
+  let result = localArray.map(value =>
+   value.map(element => Math.pow(2,element)));
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 
-
 Write a function named findMaleAndFemale that, given the Star Wars data, below,
 returns the names of the characters whose gender is either male or female.
-
 The names should be combined into a single string with each character name separated by "and".
-
 For example, "C-3PO and Luke Skywalker".
 ------------------------------------------------------------------------------------------------ */
 
@@ -151,27 +145,30 @@ let starWarsData = [{
 
 let findMaleAndFemale = (data) => {
   // Solution code here...
+  let localArray = data.filter(value =>{
+    if (value.gender ==='female'|| value.gender ==='male'){
+      return value.name;
+    }
+  }).map(element =>element.name).join(' and ');
+  return localArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 
-
 Write a function named findShortest that, given the Star Wars data from Challenge 6, uses any combination of filter, map and reduce to return the name of the shortest character.
 ------------------------------------------------------------------------------------------------ */
 
 let findShortest = (data) => {
   // Solution code here...
+  let nameArr = data.sort((elemnt1,elemnt2) => elemnt1.height - elemnt2.height );
+  return nameArr[0].name;
 };
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
-
 All the code below will verify that your functions are working to solve the challenges.
-
 DO NOT CHANGE any of the below code.
-
 Run your tests from the console: jest challenges-10.test.js
-
 ------------------------------------------------------------------------------------------------ */
 
 describe('Testing challenge 1', () => {
