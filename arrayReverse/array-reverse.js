@@ -6,7 +6,7 @@ let reverseArray = (arr) => {
      newArray.push(el);
 }
  return newArray;
- console.log(newArray);
+//  console.log(newArray);
    }
 
 reverseArray([1, 2, 3,4,5]);
