@@ -1,4 +1,5 @@
-let insertShiftArray =(arr,val)=>{
+module.exports=function insertShiftArray (arr,val){
+   
     let m=Math.ceil(arr.length/2)
     let newarr=[]
    
