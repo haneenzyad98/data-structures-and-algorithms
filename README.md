@@ -47,3 +47,5 @@ output the index of search key
            } 
      
       //  BinarySearch([4,8,15,23,42],23);
+## Code Challenge: Class 01
+![alt text](img/challing1.PNG)

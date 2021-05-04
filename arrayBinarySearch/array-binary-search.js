@@ -11,4 +11,3 @@ module.exports=function BinarySearch (sortedarray,searchkey){
      }return -1;
  } 
      
-//  BinarySearch([4,8,15,23,42],23);
