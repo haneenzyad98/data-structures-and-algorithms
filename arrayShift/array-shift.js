@@ -12,6 +12,6 @@ let insertShiftArray =(arr,val)=>{
     newarr[m]=val;
        
      return newarr;
-    console.log(newarr)
+    // console.log(newarr)
 }
-insertShiftArray([2,4,6,8],5);
+// insertShiftArray([2,4,6,8],5);
