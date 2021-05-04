@@ -15,6 +15,7 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
 
+![alt text](img/challing1.PNG)
 
 # Challenge Summary
 <!-- Short summary or background information -->
@@ -48,4 +49,3 @@ output the index of search key
      
       //  BinarySearch([4,8,15,23,42],23);
 ## Code Challenge: Class 01
-![alt text](img/challing1.PNG)
