@@ -13,3 +13,8 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 ### 401 Data Structures, Code Challenges
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+
+
+## Code Challenge: Class 01
+![alt text](img/challing1.PNG)
