@@ -14,6 +14,7 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
+## Code Challenge: Class 01
 
 
 # Challenge Summary
@@ -44,4 +45,8 @@ function which takes in an array and the value to be added and  return an array 
            } 
      
       //  BinarySearch([4,8,15,23,42],23);
+
+
+![img](img/ch3.jpeg)
+
 
