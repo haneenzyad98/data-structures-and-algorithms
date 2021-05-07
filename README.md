@@ -46,11 +46,4 @@ function which takes in an array and the value to be added and  return an array 
      
       //  BinarySearch([4,8,15,23,42],23);
 
-<<<<<<< HEAD
 ![img](img/ch03.jpeg)
-=======
-
-![img](img/ch3.jpeg)
-
-
->>>>>>> 0d05ee7fe10fb29aa4034c4bf5cc7432dbbe6ba0
