@@ -16,24 +16,20 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 ## Code Challenge: Class 01
 
-![alt text](img/challing1.PNG)
 
 # Challenge Summary
 <!-- Short summary or background information -->
-
-function takes in 2 parameters: a sorted array and the search key and return the index of search key
+input array and the value   [2,4,6,8],5
+output  array with the new value added at the middle index [2,4,5,6,8]
 
 ## Challenge Description
 <!-- Description of the challenge -->
-input (sorted array and the search key)
-
-output the index of search key
-
-## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+function which takes in an array and the value to be added and  return an array with the new value added at the middle index.
 
 ## Solution
 <!-- Embedded whiteboard image -->
+![img](screenshot.jpeg)
+
 
              module.exports=function BinarySearch (sortedarray,searchkey){
     let index=0;
@@ -50,4 +46,11 @@ output the index of search key
      
       //  BinarySearch([4,8,15,23,42],23);
 
+<<<<<<< HEAD
 ![img](img/ch03.jpeg)
+=======
+
+![img](img/ch3.jpeg)
+
+
+>>>>>>> 0d05ee7fe10fb29aa4034c4bf5cc7432dbbe6ba0
