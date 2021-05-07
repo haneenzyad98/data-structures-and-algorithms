@@ -50,4 +50,4 @@ output the index of search key
      
       //  BinarySearch([4,8,15,23,42],23);
 
-![img](img/ch3.jpeg)
+![img](img/ch03.jpeg)
