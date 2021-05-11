@@ -23,6 +23,33 @@ class LinkedList {
         }
         return this;
     }
+
+    // Define a method called includes which takes any value as an argument and returns a boolean 
+    // result depending on whether that value exists as a Node’s value somewhere within the list.
+    includes(value) {
+    let current =this.head;
+    while (current!=null) {
+        if(current.value == value){
+            current = current.next;
+            return true;
+        }
+        return false;
+    }
+    }
+
+    // Define a method called toString (or __str__ in Python) which takes in no arguments and returns a
+    //  string representing all the values in the Linked List, formatted as:
+    // "{ a } -> { b } -> { c } -> NULL"
+    
+    toString(){
+        let current =this.head;
+        let x='';
+        while (current!=null) {
+            x +=`{${current.value}}->`;
+            current=current.next;
+        }
+        return  x;
+    }
 }
 
 module.exports = LinkedList;
