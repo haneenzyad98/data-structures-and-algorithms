@@ -47,3 +47,22 @@ function which takes in an array and the value to be added and  return an array 
       //  BinarySearch([4,8,15,23,42],23);
 
 ![img](img/ch03.jpeg)
+
+<!-- Challenges class 5 -->
+
+# Singly Linked List
+<!-- Short summary or background information -->
+sequence of Nodes that are connected/linked to each other.
+
+## Challenge
+<!-- Description of the challenge -->
+Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+1.create node class.
+2.create a methods:insert,includes,toString.
+3.make tests for all methods
+
+## API
+<!-- Description of each method publicly available to your Linked List -->
