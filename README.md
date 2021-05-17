@@ -49,7 +49,7 @@ function which takes in an array and the value to be added and  return an array 
 ![img](img/ch03.jpeg)
 
 
-<!------------------------------ class 06 ---------------------------------->
+# class 06 --------------------------------
 
 # Challenge Summary
 <!-- Description of the challenge -->
@@ -63,7 +63,7 @@ methods for the Linked List class
 
 
 
-<!------------------------------ class 07 ---------------------------------->
+# class 07 ---------------------------------->
 
 # Challenge Summary
 <!-- Description of the challenge -->
