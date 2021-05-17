@@ -48,6 +48,32 @@ function which takes in an array and the value to be added and  return an array 
 
 ![img](img/ch03.jpeg)
 
+
+
+<!------------------------------ class 06 ---------------------------------->
+
+# Challenge Summary
+<!-- Description of the challenge -->
+methods for the Linked List class 
+- .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+- .insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+![img](img/ch6.jpeg)
+
+
+
+<!------------------------------ class 07 ---------------------------------->
+
+# Challenge Summary
+<!-- Description of the challenge -->
+method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. 
+
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+![img](img/ch7.jpeg)
+
 <!-- Challenges class 5 -->
 
 # Singly Linked List
@@ -66,3 +92,4 @@ Create a Node class that has properties for the value stored in the Node, and a 
 
 ## API
 <!-- Description of each method publicly available to your Linked List -->
+
