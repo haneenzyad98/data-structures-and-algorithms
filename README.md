@@ -49,7 +49,7 @@ function which takes in an array and the value to be added and  return an array 
 ![img](img/ch03.jpeg)
 
 
-# class 06 --------------------------------
+# class 06 -------------------------------->
 
 <!------------------------------ class 06 ---------------------------------->
 
