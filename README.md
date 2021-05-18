@@ -49,7 +49,7 @@ function which takes in an array and the value to be added and  return an array 
 ![img](img/ch03.jpeg)
 
 
-# class 06 --------------------------------
+# class 06 -------------------------------->
 
 <!------------------------------ class 06 ---------------------------------->
 
@@ -93,4 +93,14 @@ Create a Node class that has properties for the value stored in the Node, and a 
 
 ## API
 <!-- Description of each method publicly available to your Linked List -->
+
+# class 08 ---------------------------------->
+
+# Challenge Summary
+<!-- Description of the challenge -->
+function called zipLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list.
+
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+![img](img/ch8.jpeg)
 
