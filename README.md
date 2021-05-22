@@ -47,3 +47,9 @@ function which takes in an array and the value to be added and  return an array 
       //  BinarySearch([4,8,15,23,42],23);
 
 ![img](img/ch03.jpeg)
+
+# Stacks and Queues 
+# code challing 10
+
+![img](img/10.PNG)
+
