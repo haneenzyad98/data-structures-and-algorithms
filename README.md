@@ -49,6 +49,12 @@ function which takes in an array and the value to be added and  return an array 
 ![img](img/ch03.jpeg)
 
 
+# Stacks and Queues 
+# code challing 10
+
+![img](img/10.PNG)
+
+
 # class 06 -------------------------------->
 
 <!------------------------------ class 06 ---------------------------------->
@@ -103,4 +109,5 @@ function called zipLists which takes two linked lists as arguments. Zip the two 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 ![img](img/ch8.jpeg)
+
 
