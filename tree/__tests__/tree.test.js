@@ -1,8 +1,10 @@
 'use strict';
 
-const BinaryTree = require('../tree').BinaryTree;
-const BinarySearchTree = require('../tree').BinarySearchTree;
-const Node = require('../tree').Node;
+// const BinaryTree = require('../tree').BinaryTree;
+// const BinarySearchTree = require('../tree').BinarySearchTree;
+// const Node = require('../tree').Node;
+
+const { Node, BinaryTree, BinarySearchTree } = require('../tree.js');
 
 let tree = null;
 describe('Binary Tree', ()=> {
@@ -40,6 +42,7 @@ describe('Binary Tree', ()=> {
         let preOrderResult = tree.preOrder();
         console.log("preOrderResult: ", preOrderResult)
         expect(preOrderResult).toEqual(expected);
+        
     });
 
     it ('inOrder', ()=> {
@@ -73,4 +76,11 @@ describe('Binary Tree', ()=> {
         expect(newt.contains(5)).toEqual(false);
         expect(newt.contains(10)).toEqual(false);
     });
+
+    it('Find the Maximum Value in a Binary Tree ', () => {
+
+        let expected =9;
+        let preOrderResult = tree.findmaximumvalue();
+        expect(preOrderResult).toEqual(expected);
+      });
 });
