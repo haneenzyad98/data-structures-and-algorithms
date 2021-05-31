@@ -83,4 +83,12 @@ describe('Binary Tree', ()=> {
         let preOrderResult = tree.findmaximumvalue();
         expect(preOrderResult).toEqual(expected);
       });
+
+
+      it('breadthfirsttraversal ', () => {
+
+        let expected =[1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ];
+        let preOrderResult = tree.breadthfirsttraversal();
+        expect(preOrderResult).toEqual(expected);
+      });
 });

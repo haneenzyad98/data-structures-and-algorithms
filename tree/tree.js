@@ -82,6 +82,31 @@ class BinaryTree {
         }return x;
 
     }
+
+    breadthfirsttraversal(){
+        let results = [];
+        let newarr =[];
+    let traverse = (node) => {
+        results.push(node.value)
+        if (node.left) traverse(node.left);
+        if (node.right) traverse(node.right);
+        console.log(results);
+    }
+    traverse(this.root)
+
+    const node = results.shift();
+    for (let i = 0; i < results.length; i++) {
+        if (node.left) {
+            newarr.push(node.left.value )
+        }
+        if (node.right){
+            newarr.push(node.right.value)
+        }
+    }
+       return newarr;
+        
+      }
+
 }
 
 class BinarySearchTree {
