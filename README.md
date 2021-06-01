@@ -32,3 +32,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 15 |[challenge15](tree/challenge16.md)
 16 |[challenge16](tree/challenge16.md)
 17 |[challenge17](tree/challenge16.md)
+18 |[challenge18](tree/challenge18.md)
