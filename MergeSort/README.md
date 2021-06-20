@@ -1,3 +1,13 @@
+# Challenge Summary
+<!-- Description of the challenge -->
+trace the algorithm by stepping through the process with the provided sample array. Document your explanation by creating a blog article that shows the step-by-step output after each iteration through some sort of visual Merge Sort
+
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+![](../img/ch27.jpeg)
+
+## Solution
+<!-- Show how to run your code, and examples of it in action -->
 function merge(leftArr, rightArr) {
   var sortedArr = [];
     while (leftArr.length && rightArr.length) {
@@ -26,3 +36,4 @@ function merge(leftArr, rightArr) {
     }
   }
   module.exports = mergesort;
+
